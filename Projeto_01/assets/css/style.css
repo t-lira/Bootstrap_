@@ -69,7 +69,7 @@ border-bottom: 1px solid #ccc;
 /* -- Main banner image -- */
 .main-image {
   height: 25rem;
-  background-image: url('/Projeto_01/assets/image/g_1.jpg');
+  background-image: url('../image/g_1.jpg');
   margin-bottom: 1.875rem;
   position: relative;
 }
@@ -84,23 +84,23 @@ border-bottom: 1px solid #ccc;
 
 /* --Gallery-- */
 #img-2 {
-  background-image: url('/Projeto_01/assets/image/g_2.jpg');
+  background-image: url('../image/g_2.jpg');
 }
 
 #img-3 {
-  background-image: url('/Projeto_01/assets/image/g_3.jpg');
+  background-image: url('../image/g_3.jpg');
 }
 
 #img-4 {
-  background-image: url('/Projeto_01/assets/image/g_4.jpg');
+  background-image: url('../image/g_4.jpg');
 }
 
 #img-5 {
-  background-image: url('/Projeto_01/assets/image/g_5.jpg');
+  background-image: url('../image/g_5.jpg');
 }
 
 #img-6 {
-  background-image: url('/Projeto_01/assets/image/g_6.jpg');
+  background-image: url('../image/g_6.jpg');
 }
 
 #gallery-container h1 {
