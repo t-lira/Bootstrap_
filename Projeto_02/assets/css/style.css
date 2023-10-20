@@ -1,0 +1,87 @@
+body{
+  background-color: #f8f8f8;
+}
+
+a{
+  text-decoration: none;
+  transition: .5s;
+}
+
+/*form*/
+.form-container{
+  background-color: #fff;
+  box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 1.563rem auto;
+  padding: 1.563rem;
+}
+
+@media(min-width: 48rem) {
+  .form-container {
+    margin: 3.125rem auto;
+    padding: 3.125rem;
+  }
+}
+
+.form-container form{
+  padding-bottom: 0rem;
+}
+
+.form-container, .form-control{
+  border: none;
+  border-radius: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.form-container, .form-control:focus{
+box-shadow: none;
+}
+
+.form-container h2{
+  font-weight: 900;
+  margin-bottom: 1.875;
+}
+
+.form-container a{
+  color: #222;
+}
+
+.form-container a:hover{
+  color: #6c63ff;
+}
+
+.form-container .form-floating label {
+  color: #CCC;
+}
+
+.form-container .form-floating > .form-control:focus~label {
+  color: #222;
+}
+
+.form-container .form-check-input:checked,
+.form-container input[type="submit"] {
+  background-color: #6C63FF;
+  border-color: #6C63FF;
+}
+
+.btn, .btn-primary {
+  width: 100%;
+  margin-top: 1.563rem;
+}
+
+@media(min-width: 48rem) {
+  .btn, .btn-primary {
+    width: auto;
+  }
+}
+
+/* Image */
+.align-items-center {
+  align-content: center;
+  height: 100%;
+  padding: 4.688rem 0;
+}
+
+.link-container {
+  text-align: center;
+  padding-top: 3.125rem;
+}
